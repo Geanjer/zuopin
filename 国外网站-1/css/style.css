@@ -1,0 +1,3355 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding: 0px;margin: 0px;text-decoration: none;}
+
+.cebianlan{
+	background-color: #000;
+	position: absolute;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	z-index: 100;
+	animation:ce 3s;
+	-moz-animation:ce 3s; /* Firefox */
+	-webkit-animation:ce 3s; /* Safari and Chrome */
+	-o-animation:ce 3s; /* Opera */
+	animation-fill-mode :forwards;
+}
+@keyframes ce
+{
+0%   {left:-60px; top:0px;}
+100% {left:0px; top:0px;}
+}
+
+@-moz-keyframes ce /* Firefox */
+{
+0%   {left:-60px; top:0px;}
+100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes ce /* Safari and Chrome */
+{
+0%   {left:-60px; top:0px;}
+100% {left:0px; top:0px;}
+}
+
+@-o-keyframes ce /* Opera */
+{
+0%   {left:-60px; top:0px;}
+100% {left:0px; top:0px;}
+}
+.zhuye{
+	color: rgba(230,230,230,0.50);
+}
+.zhuye:hover{
+	color:#19b5fe;
+}
+.xiangji{
+	color: rgba(230,230,230,0.50);
+}
+.xiangji:hover{
+	color: #19b5fe;
+}
+.yemian{
+	color: rgba(230,230,230,0.50);
+	margin-top: 10px;
+}
+.yemian:hover{
+	color: #19b5fe;
+}
+.tuu{
+	animation:mymove 3s;
+	-moz-animation:mymove 3s; /* Firefox */
+	-webkit-animation:mymove 3s; /* Safari and Chrome */
+	-o-animation:mymove 3s; /* Opera */
+	animation-fill-mode :forwards;
+}
+@keyframes mymove
+{
+0%   {opacity:0.0;}
+100% {opacity:1.0;}
+}
+
+@-moz-keyframes mymove /* Firefox */
+{
+0%   {opacity:0.0;}
+100% {opacity:1.0;}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+0%   {opacity:0.0;}
+100% {opacity:1.0;}
+}
+
+@-o-keyframes mymove  /*Opera*/ 
+{
+0%   {opacity:0.0;}
+100% {opacity:1.0;}
+}
+.biaoti{
+	text-align: center;
+	position: absolute;
+	top: -310px;
+	left: 600px;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+}
+@keyframes myfirst
+{
+0%   {left:600px; top:-310px;}
+100% {left:600px; top:150px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {left:600px; top:-310px;}
+100% {left:600px; top:150px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {left:600px; top:-310px;}
+100% {left:600px; top:150px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {left:600px; top:-310px;}
+100% {left:600px; top:150px;}
+}
+.hey{
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+.by{
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 80px;
+	font-weight: 200;
+}
+.con{
+	background-color: rgba(230,230,230,0.00);
+	color: #fff;
+	border: 2px solid rgba(230,230,230,0.4);
+	border-radius: 5px;
+	font-size: 30px;
+	padding: 21px 41px;
+	cursor: pointer;
+}
+.new{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.zhanshi{
+	margin-left: 130px;
+}
+.tu-1{
+	float: left;
+	width: 428px;
+	height: 428px;
+	overflow: hidden;
+}
+.full{
+	text-align: center;
+	margin-top:941px;
+	margin-bottom: 50px;
+}
+.fu{
+	font-size: 20px;
+	border: 0px;
+	background-color: #19b5fe;
+	padding: 20px 40px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.zuobian{
+	float: left;
+	width: 50%;
+	background-color: #e6e6e6;
+	padding-bottom: 50px;
+}
+.youbian{
+	float: right;
+	width: 50%;
+	background-color: #ececec;
+	padding-bottom: 60px;
+}
+.me{
+	font-size: 22px;
+	margin-top: 60px;
+	margin-bottom: 35px;
+	margin-left: 130px;
+}
+.mu{
+	margin-left: 130px;
+	font-size: 18px;
+	line-height: 1.8em;
+	margin-right:70px;
+	font-weight: 200;
+}
+.me-1{
+	font-size: 22px;
+	margin-top: 40px;
+	margin-bottom: 35px;
+	margin-left: 130px;
+}
+.get{
+	font-size: 20px;
+	margin-left:60px;
+	padding-top: 60px;
+}
+.name{
+	font-size: 16px;
+	margin-left: 60px;
+	margin-top: 35px;
+}
+.xingming{
+	margin-top: 20px;
+	margin-left: 60px;
+	border: 1px solid #c5ecfe;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 181px;
+	color: #c7cbce;
+}
+.email{
+	font-size: 16px;
+	margin-left: 468px;
+	margin-top: 35px;
+}
+.youxiang{
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 1px solid #c5ecfe;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 181px;
+	color: #c7cbce;
+}
+.age{
+	font-size: 20px;
+	margin-left: 60px;
+	margin-top: 27px;
+	margin-bottom: 20px;
+}
+.shurukuang{
+	border: 1px solid #c5ecfe;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	color:#C7CBCE;
+	resize: none;
+	font-size: 18px;
+	padding-left: 17px;
+	padding-top: 17px;
+	padding-right: 566px;
+	padding-bottom: 155px;
+}
+.se{
+	margin-left: 60px;
+	border: 0px;
+	background-color: #19b5fe;
+	color: #fff;
+	font-size: 20px;
+	padding: 15px 25px;
+	border-radius: 5px;
+	cursor: pointer;	
+}
+.jieshu{
+	margin: auto;
+	clear: both;
+}
+.un{
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 45px;
+	clear: both;
+	color: #bfbfbf;
+}
+.un a{
+	color: #19b5fe;
+	border-bottom: 1px solid #19b5fe;
+}
+/*第二页*/
+.taitou{
+	background-color: #e6e6e6;
+	animation:mynav 3s;
+	-moz-animation:mynav 3s; /* Firefox */
+	-webkit-animation:mynav 3s; /* Safari and Chrome */
+	-o-animation:mynav 3s; /* Opera */
+	animation-fill-mode :forwards;
+	position: absolute;
+	width: 100%;
+}
+@keyframes mynav
+{
+0%   {left:0px; top:-70px;}
+100% {left:0px; top:0px;}
+}
+
+@-moz-keyframes mynav /* Firefox */
+{
+0%   {left:0px; top:-70px;}
+100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes mynav /* Safari and Chrome */
+{
+0%   {left:0px; top:-70px;}
+100% {left:0px; top:0px;}
+}
+
+@-o-keyframes mynav /* Opera */
+{
+0%   {left:0px; top:-70px;}
+100% {left:0px; top:0px;}
+}
+.sna{
+	font-size: 16px;
+	color: #000;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	text-align: right;
+	margin-right: 50px;
+}
+.gal{
+	font-size: 20px;
+	font-weight: 400;
+	padding-left: 100px;
+	padding-top: 128px;
+	padding-bottom: 10px;
+}
+.al{
+	font-size: 16px;
+	color: #fff;
+	padding: 15px 22px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #22313f;
+	margin-top: -53px;
+	cursor: pointer;
+	float: right;
+	margin-right: 368px;
+	position: absolute;
+	top: 166px;
+	right: 0px;
+	animation:myal 1.5s;
+	-moz-animation:myal 1.5s; /* Firefox */
+	-webkit-animation:myal 1.5s; /* Safari and Chrome */
+	-o-animation:myal 1.5s; /* Opera */
+	animation-fill-mode :forwards;
+}
+@keyframes myal
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-moz-keyframes myal /* Firefox */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-webkit-keyframes myal /* Safari and Chrome */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-o-keyframes myal /* Opera */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+.al-1{
+	font-size: 16px;
+	color: #fff;
+	padding: 15px 22px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #19b5fe;
+	margin-top: -53px;
+	cursor: pointer;
+	float: right;
+	margin-right:261px;
+	position: absolute;
+	top: 166px;
+	right: 0px;
+	animation:myal1 2s;
+	-moz-animation:myal1 2s; /* Firefox */
+	-webkit-animation:myal1 2s; /* Safari and Chrome */
+	-o-animation:myal1 2s; /* Opera */
+	animation-fill-mode :forwards;
+}
+@keyframes myal1
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-moz-keyframes myal1 /* Firefox */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-webkit-keyframes myal1 /* Safari and Chrome */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-o-keyframes myal1 /* Opera */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+.al-2{
+	font-size: 16px;
+	color: #fff;
+	padding: 15px 22px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #19b5fe;
+	margin-top: -53px;
+	cursor: pointer;
+	float: right;
+	margin-right: 157px;
+	position: absolute;
+	top: 166px;
+	right: 0px
+	animation:myal2 2.5s;
+	-moz-animation:myal2 2.5s; /* Firefox */
+	-webkit-animation:myal2 2.5s; /* Safari and Chrome */
+	-o-animation:myal2 2.5s; /* Opera */
+	animation-fill-mode :forwards;
+}
+@keyframes myal2
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-moz-keyframes myal2 /* Firefox */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-webkit-keyframes myal2 /* Safari and Chrome */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-o-keyframes myal2 /* Opera */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+.al-3{
+	font-size: 16px;
+	color: #fff;
+	padding: 15px 22px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #19b5fe;
+	margin-top: -53px;
+	cursor: pointer;
+	float: right;
+	margin-right: 50px;
+	margin-left: 10px;
+	position: absolute;
+	top: 166px;
+	right: 0px;
+	animation:myal3 3s;
+	-moz-animation:myal3 3s; /* Firefox */
+	-webkit-animation:myal3 3s; /* Safari and Chrome */
+	-o-animation:myal3 3s; /* Opera */
+	animation-fill-mode :forwards;
+}
+@keyframes myal3
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-moz-keyframes myal3 /* Firefox */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-webkit-keyframes myal3 /* Safari and Chrome */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+
+	@-o-keyframes myal3 /* Opera */
+	{
+		0%   {opacity: 0;top: -100px;right: 0px;}
+		100% {opacity: 1;top: 166px;right: 0px;}
+	}
+.fenqu{
+	animation:myGallery 3s;
+	-moz-animation:myGallery 3s; /* Firefox */
+	-webkit-animation:myGallery 3s; /* Safari and Chrome */
+	-o-animation:myGallery 3s; /* Opera */
+	animation-fill-mode :forwards;
+}
+@keyframes myGallery
+{
+0%   {opacity:0.1;}
+100% {opacity:1.0;}
+}
+
+@-moz-keyframes myGallery /* Firefox */
+{
+0%   {opacity:0.1;}
+100% {opacity:1.0;}
+}
+
+@-webkit-keyframes myGallery /* Safari and Chrome */
+{
+0%   {opacity:0.1;}
+100% {opacity:1.0;}
+}
+
+@-o-keyframes myGallery  /*Opera*/ 
+{
+0%   {opacity:0.1;}
+100% {opacity:1.0;}
+}
+/*
+.zhanshi-1{
+	margin-left: 120px;
+	margin-top: 30px;
+	background-color: #f1f1f1;
+}
+*/
+/*第二页结束*/
+/*第三页*/
+
+.fau{
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-right: 55px;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 2em;
+}
+.zuobian-1{
+	width: 50%;
+	float: left;
+}
+.zuotu{
+	border: 1px solid #d9d9d9;
+	padding: 15px 15px;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-right: 20px;
+	float: left;
+}
+.par{
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 30px;
+}
+.ad{
+	font-size: 16px;
+	font-weight: 200;
+	margin-top: 22px;
+	line-height: 2em;
+}
+.youtu{
+	border: 1px solid #d9d9d9;
+	padding: 15px 15px;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-right: 20px;
+	float: left;
+}
+.ad-1{
+	font-size: 16px;
+	font-weight: 200;
+	margin-top: 22px;
+	margin-right: 55px;
+	line-height: 2em;
+}
+.neirong-233{
+	padding-bottom: 55px;
+}
+.ult{
+	margin-top: -100px;
+}
+
+/*第三页结束*/
+
+/*媒体查询*/
+
+@media(max-width:1681px) and (min-width:1441px){
+	.zhanshi{
+		margin-left: 85px;
+	}
+	.tu{
+		width: 390px;
+		height: 390px;
+	}
+	.tu-1{
+		width: 390px;
+		height: 390px;
+	}
+	.full{
+		margin-top: 850px;
+		margin-bottom: 0px;
+	}
+	.zuobian{
+		margin-top: 50px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.email{
+		margin-left: 60px;
+	}
+	.youxiang{
+		margin-left: 60px;
+	}
+	.shurukuang{
+		padding-right: 360px;
+		padding-bottom: 146px;
+	}
+	.by{
+		margin-bottom: 40px;
+	}
+	.con{
+		padding: 13px 36px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:480px; top:-310px;}
+		100% {left:480px; top:100px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:480px; top:-310px;}
+		100% {left:480px; top:100px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:480px; top:-310px;}
+		100% {left:480px; top:100px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:480px; top:-310px;}
+		100% {left:480px; top:100px;}
+	}
+}
+@media(max-width:1441px) and (min-width:1367px){
+	.zhanshi{
+		margin-left: 110px;
+	}
+	.tu{
+		width: 420px;
+		height: 420px;
+	}
+	.tu-1{
+		width: 420px;
+		height: 420px;
+	}
+	.full{
+		margin-top: 1070px;
+		margin-bottom: 0px;
+	}
+	.zuobian{
+		margin-top: 50px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.email{
+		margin-left: 60px;
+	}
+	.youxiang{
+		margin-left: 60px;
+	}
+	.shurukuang{
+		padding-right: 360px;
+		padding-bottom: 118px;
+	}
+	.by{
+		margin-bottom: 40px;
+	}
+	.con{
+		padding: 13px 36px;
+	}
+	.mu{
+		font-size: 16px;
+	}
+	.people{
+		width: 320px;
+		height: 320px;
+	}
+	.tu-p{
+		width: 320px;
+		height: 320px;
+	}
+	.ad{
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.ad-1{
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:350px; top:-310px;}
+		100% {left:350px; top:120px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:350px; top:-310px;}
+		100% {left:350px; top:120px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:350px; top:-310px;}
+		100% {left:350px; top:120px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:350px; top:-310px;}
+		100% {left:350px; top:120px;}
+	}
+}
+@media(max-width:1367px) and (min-width:1281px){
+	.zhanshi{
+		margin-left: 100px;
+	}
+	.full{
+		margin-top: 1080px;
+	}
+	.zuobian{
+		margin-top: 50px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.tu-1{
+		width: 410px;
+		height: 410px;
+	}
+	.tu{
+		width: 410px;
+		height: 410px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.email{
+		margin-left: 60px;
+	}
+	.youxiang{
+		margin-left: 60px;
+	}
+	.shurukuang{
+		padding-right: 360px;
+		padding-bottom: 238px;
+	}
+	.by{
+		margin-bottom: 40px;
+	}
+	.con{
+		padding: 13px 36px;
+	}
+	.people{
+		width: 310px;
+		height: 310px;
+	}
+	.tu-p{
+		width: 310px;
+		height: 310px;
+	}
+	.ad{
+		font-size: 14px;
+		margin-top: 10px;
+		float: right;
+		width: 55%;
+		line-height: 24px;
+	}
+	.ad-1{
+		font-size: 14px;
+		margin-top: 10px;
+		float: right;
+		width: 27%;
+		line-height: 21px;
+	}
+	.ult{
+		margin-top: -98px;
+	}
+	.zuobian-1{
+		margin-top: 0px;
+	}
+	.youbian-1{
+		margin-top: 0px;
+	}
+	.mu{
+		font-size: 17px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:350px; top:-310px;}
+		100% {left:350px; top:70px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:350px; top:-310px;}
+		100% {left:350px; top:70px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:350px; top:-310px;}
+		100% {left:350px; top:70px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:350px; top:-310px;}
+		100% {left:350px; top:70px;}
+	}
+}
+@media(max-width:1280px) and (min-width:1081px){
+	.zhanshi{
+		margin-left:220px;
+	}
+	.full{
+		margin-top: 1800px;
+		margin-bottom: 0px;
+		clear: both;
+	}
+	.zuobian{
+		margin-top: 50px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.email{
+		margin-left: 60px;
+	}
+	.youxiang{
+		margin-left: 60px;
+	}
+	.shurukuang{
+		padding-right: 175px;
+		padding-bottom: 298px;
+	}
+	.hey{
+		font-size: 40px;;
+	}
+	.by{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	.con{
+		padding:15px 35px;
+		font-size: 18px;
+	}
+	.ad{
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.ad-1{
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.ult{
+		margin-top: -98px;
+	}
+	.zuobian-1{
+		margin-top: 0px;
+	}
+	.youbian-1{
+		margin-top: 0px;
+	}
+	.mu{
+		font-size: 17px;
+	}
+	.fau{
+		font-size: 16px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:390px; top:-310px;}
+		100% {left:390px; top:100px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:390px; top:-310px;}
+		100% {left:390px; top:100px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:390px; top:-310px;}
+		100% {left:390px; top:100px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:390px; top:-310px;}
+		100% {left:390px; top:100px;}
+	}
+}
+@media(max-width:1081px) and (min-width:1025px){
+	.zhanshi{
+		margin-left:130px;
+	}
+	.full{
+		margin-top: 1800px;
+		margin-bottom: 0px;
+		clear: both;
+	}
+	.zuobian{
+		margin-top: 50px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.email{
+		margin-left: 60px;
+	}
+	.youxiang{
+		margin-left: 60px;
+	}
+	.shurukuang{
+		padding-right: 175px;
+		padding-bottom: 260px;
+	}
+	.hey{
+		font-size: 40px;;
+	}
+	.by{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	.con{
+		padding:15px 35px;
+		font-size: 18px;
+	}
+	.mu{
+		font-size: 16px;
+	}
+	.ad{
+		margin-right: 55px;
+	}
+	.ad-1{
+		margin-right: 55px;
+	}
+	.ult{
+		margin-top: -98px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youtu{
+		margin-left: 100px;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	top:80px;
+	left: 320px;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:320px; top:-310px;}
+		100% {left:320px; top:80px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:320px; top:-310px;}
+		100% {left:320px; top:80px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:320px; top:-310px;}
+		100% {left:320px; top:80px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:320px; top:-310px;}
+		100% {left:320px; top:80px;}
+	}
+}
+@media(max-width:1025px) and (min-width:980px){
+	.zhanshi{
+		margin-left:105px;
+	}
+	.full{
+		margin-top: 1800px;
+		margin-bottom: 0px;
+		clear: both;
+	}
+	.zuobian{
+		margin-top: 50px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.email{
+		margin-left: 60px;
+	}
+	.youxiang{
+		margin-left: 60px;
+	}
+	.shurukuang{
+		padding-right: 175px;
+		padding-bottom: 261px;
+	}
+	.hey{
+		font-size: 40px;;
+	}
+	.by{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	.con{
+		padding:15px 35px;
+		font-size: 18px;
+	}
+	.mu{
+		font-size: 15px;
+	}
+	.ad{
+		margin-right: 55px;
+	}
+	.ad-1{
+		margin-right: 55px;
+	}
+	.ult{
+		margin-top: -98px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youtu{
+		margin-left: 100px;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	top: 50px;
+	left: 280px;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:280px; top:-310px;}
+		100% {left:280px; top:80px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:280px; top:-310px;}
+		100% {left:280px; top:80px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:280px; top:-310px;}
+		100% {left:280px; top:80px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:280px; top:-310px;}
+		100% {left:280px; top:80px;}
+	}
+}
+@media(max-width:980px) and (min-width:769px){
+	.zhanshi{
+		margin-left:90px;
+	}
+	.neirong{
+		position: relative;
+	}
+	.full{
+		position: absolute;
+		top: 20px;
+		left: 425px;
+	}
+	.neirong{
+		margin-bottom: 1850px;
+	}
+	.zuobian{
+		margin-top: 50px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.email{
+		margin-left: 60px;
+	}
+	.youxiang{
+		margin-left: 60px;
+	}
+	.shurukuang{
+		padding-right: 175px;
+		padding-bottom: 213px;
+	}
+	.hey{
+		font-size: 40px;;
+	}
+	.by{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	.con{
+		padding:15px 35px;
+		font-size: 18px;
+	}
+	.mu{
+		font-size: 14px;
+	}
+	.ad{
+		margin-right: 55px;
+		font-size: 15px;
+	}
+	.ad-1{
+		margin-right: 55px;
+		font-size: 15px;
+	}
+	.ult{
+		margin-top: -98px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youtu{
+		margin-left: 100px;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+		
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.al-3{
+		position: absolute;
+		top: 170px;
+		left: 850px;
+		animation:myal3 3s;
+		-moz-animation:myal3 3s; /* Firefox */
+		-webkit-animation:myal3 3s; /* Safari and Chrome */
+		-o-animation:myal3 3s; /* Opera */
+		animation-fill-mode :forwards;
+	}
+	@keyframes myal3
+	{
+		0%   {opacity: 0;top: -100px;left: 850px;}
+		100% {opacity: 1;top: 170px;left: 850px;}
+	}
+
+	@-moz-keyframes myal3 /* Firefox */
+	{
+		0%   {opacity: 0;top: -100px;left: 850px;}
+		100% {opacity: 1;top: 170px;left: 850px;}
+	}
+
+	@-webkit-keyframes myal3 /* Safari and Chrome */
+	{
+		0%   {opacity: 0;top: -100px;left: 850px;}
+		100% {opacity: 1;top: 170px;left: 850px;}
+	}
+
+	@-o-keyframes myal3 /* Opera */
+	{
+		0%   {opacity: 0;top: -100px;left: 850px;}
+		100% {opacity: 1;top: 170px;left: 850px;}
+	}
+	.al-2{
+		position: absolute;
+		top: 170px;
+		left: 761px;
+		animation:myal2 2.5s;
+		-moz-animation:myal2 2.5s; /* Firefox */
+		-webkit-animation:myal2 2.5s; /* Safari and Chrome */
+		-o-animation:myal2 2.5s; /* Opera */
+		animation-fill-mode :forwards;
+	}
+	@keyframes myal2
+	{
+		0%   {opacity: 0;top: -100px;left: 761px;}
+		100% {opacity: 1;top: 170px;left: 761px;}
+	}
+
+	@-moz-keyframes myal2 /* Firefox */
+	{
+		0%   {opacity: 0;top: -100px;left: 761px;}
+		100% {opacity: 1;top: 170px;left: 761px;}
+	}
+
+	@-webkit-keyframes myal2 /* Safari and Chrome */
+	{
+		0%   {opacity: 0;top: -100px;left: 761px;}
+		100% {opacity: 1;top: 170px;left: 761px;}
+	}
+
+	@-o-keyframes myal2 /* Opera */
+	{
+		0%   {opacity: 0;top: -100px;left: 761px;}
+		100% {opacity: 1;top: 170px;left: 761px;}
+	}
+	.al-1{
+		position: absolute;
+		top: 170px;
+		left: 659px;
+		animation:myal1 2s;
+		-moz-animation:myal1 2s; /* Firefox */
+		-webkit-animation:myal1 2s; /* Safari and Chrome */
+		-o-animation:myal1 2s; /* Opera */
+		animation-fill-mode :forwards;
+	}
+	@keyframes myal1
+	{
+		0%   {opacity: 0;top: -100px;left: 659px;}
+		100% {opacity: 1;top: 170px;left: 659px;}
+	}
+
+	@-moz-keyframes myal1 /* Firefox */
+	{
+		0%   {opacity: 0;top: -100px;left: 659px;}
+		100% {opacity: 1;top: 170px;left: 659px;}
+	}
+
+	@-webkit-keyframes myal1 /* Safari and Chrome */
+	{
+		0%   {opacity: 0;top: -100px;left: 659px;}
+		100% {opacity: 1;top: 170px;left: 659px;}
+	}
+
+	@-o-keyframes myal1 /* Opera */
+	{
+		0%   {opacity: 0;top: -100px;left: 659px;}
+		100% {opacity: 1;top: 170px;left: 659px;}
+	}
+	.al{
+		position: absolute;
+		top: 170px;
+		left: 587px;
+		animation:myal 1.5s;
+		-moz-animation:myal 1.5s; /* Firefox */
+		-webkit-animation:myal 1.5s; /* Safari and Chrome */
+		-o-animation:myal 1.5s; /* Opera */
+		animation-fill-mode :forwards;
+	}
+	@keyframes myal
+	{
+		0%   {opacity: 0;top: -100px;left: 587px;}
+		100% {opacity: 1;top: 170px;left: 587px;}
+	}
+
+	@-moz-keyframes myal /* Firefox */
+	{
+		0%   {opacity: 0;top: -100px;left: 587px;}
+		100% {opacity: 1;top: 170px;left: 587px;}
+	}
+
+	@-webkit-keyframes myal /* Safari and Chrome */
+	{
+		0%   {opacity: 0;top: -100px;left: 587px;}
+		100% {opacity: 1;top: 170px;left: 587px;}
+	}
+
+	@-o-keyframes myal /* Opera */
+	{
+		0%   {opacity: 0;top: -100px;left: 587px;}
+		100% {opacity: 1;top: 170px;left: 587px;}
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:280px; top:-310px;}
+		100% {left:280px; top:50px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:280px; top:-310px;}
+		100% {left:280px; top:50px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:280px; top:-310px;}
+		100% {left:280px; top:50px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:280px; top:-310px;}
+		100% {left:280px; top:50px;}
+	}
+}
+@media (max-width:769px) and (min-width:737px){
+	.zhanshi{
+		margin-left:95px;
+	}
+	.full{
+		margin-top: -130px;
+		margin-right: 70px;
+		float: right;
+	}
+	.fu{
+		font-size: 16px;
+		font-weight: 200;
+		padding: 15px 30px;
+	}
+	.zuobian{
+		margin-top: 50px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.name{
+		margin-left: 40px;
+	}
+	.xingming{
+		margin-left: 40px;
+		padding-right: 90px;
+	}
+	.email{
+		margin-left: 40px;
+	}
+	.youxiang{
+		margin-left: 40px;
+		padding-right: 90px;
+	}
+	.shurukuang{
+		padding-right: 85px;
+		padding-bottom: 260px;
+		margin-left: 40px;
+	}
+	.age{
+		margin-left: 40px;
+	}
+	.get{
+		margin-left: 40px;
+		padding-top: 40px;
+	}
+	.se{
+		font-size: 18px;
+		margin-left: 40px;
+		margin-top: 20px;
+		padding: 10px 20px;
+	}
+	.hey{
+		font-size: 30px;;
+	}
+	.by{
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+	.con{
+		padding:10px 25px;
+		font-size: 12px;
+	}
+	.mu{
+		font-size: 14px;
+		margin-left: 100px;
+		margin-right: 50px;
+		line-height: 1.5em;
+	}
+	.me{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.me-1{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.tu-1{
+		width: 210px;
+		height: 210px;
+	}
+	.tu{
+		width: 210px;
+		height: 210px;
+	}
+	.new{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	.people{
+		width: 160px;
+		height: 160px;
+	}
+	.tu-p{
+		width: 160px;
+		height: 160px;
+	}
+	.al-3{
+		margin-right: 20px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-2{
+		margin-right: 115px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-1{
+		margin-right: 207px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al{
+		margin-right: 302px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.ad{
+		margin-right: 35px;
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	.ad-1{
+		margin-right: 140px;
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	.ult{
+		margin-top: -98px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		margin-left: 100px;
+		clear: both;
+	}
+	.youtu{
+		margin-left: 0px;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:230px; top:-310px;}
+		100% {left:230px; top:40px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:230px; top:-310px;}
+		100% {left:230px; top:40px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:230px; top:-310px;}
+		100% {left:230px; top:40px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:230px; top:-310px;}
+		100% {left:230px; top:40px;}
+	}
+}
+@media (max-width:736px) and (min-width:669px){
+	.zhanshi{
+		margin-left:80px;
+	}
+	.full{
+		margin-top: 88px;
+		margin-right: 55px;
+		float: right;
+	}
+	.fu{
+		font-size: 16px;
+		font-weight: 200;
+		padding: 15px 30px;
+	}
+	.zuobian{
+		margin-top: 50px;
+		padding-bottom: 28px;
+	}
+	.youbian{
+		margin-top: 50px;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.name{
+		margin-left: 40px;
+	}
+	.xingming{
+		margin-left: 40px;
+		padding-right: 90px;
+	}
+	.email{
+		margin-left: 40px;
+	}
+	.youxiang{
+		margin-left: 40px;
+		padding-right: 90px;
+	}
+	.shurukuang{
+		padding-right: 85px;
+		padding-bottom: 239px;
+		margin-left: 40px;
+	}
+	.age{
+		margin-left: 40px;
+	}
+	.get{
+		margin-left: 40px;
+		padding-top: 40px;
+	}
+	.se{
+		font-size: 18px;
+		margin-left: 40px;
+		margin-top: 20px;
+		padding: 10px 20px;
+	}
+	.hey{
+		font-size: 30px;;
+	}
+	.by{
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+	.con{
+		padding:10px 25px;
+		font-size: 12px;
+	}
+	.mu{
+		font-size: 14px;
+		margin-left: 100px;
+		margin-right: 50px;
+		line-height: 1.5em;
+	}
+	.me{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.me-1{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.tu-1{
+		width: 210px;
+		height: 210px;
+	}
+	.tu{
+		width: 210px;
+		height: 210px;
+	}
+	.new{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	.people{
+		width: 160px;
+		height: 160px;
+	}
+	.tu-p{
+		width: 160px;
+		height: 160px;
+	}
+	.al-3{
+		margin-right: 20px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-2{
+		margin-right: 115px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-1{
+		margin-right: 207px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al{
+		margin-right: 302px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al{
+		margin-right: 302px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.fau{
+		font-size: 16px;
+	}
+	.ad{
+		margin-right: 35px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+	}
+	.ad-1{
+		margin-right: 140px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+	}
+	.ult{
+		margin-top: -98px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		margin-left: 100px;
+		clear: both;
+	}
+	.youtu{
+		margin-left: 0px;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:230px; top:-310px;}
+		100% {left:230px; top:40px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:230px; top:-310px;}
+		100% {left:230px; top:40px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:230px; top:-310px;}
+		100% {left:230px; top:40px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:230px; top:-310px;}
+		100% {left:230px; top:40px;}
+	}
+}
+@media (max-width:668px) and (min-width:569px){
+	.zhanshi{
+		margin-left:80px;
+	}
+	.full{
+		margin-top: 1160px;
+		margin-right: -50px;
+		clear: both;
+		margin-bottom: -20px;
+	}
+	.fu{
+		font-size: 16px;
+		font-weight: 200;
+		padding: 15px 30px;
+	}
+	.zuobian{
+		margin-top: 50px;
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian{
+		margin-top: 0px;
+		width: 100%;
+		float: none;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.name{
+		margin-left: 80px;
+	}
+	.xingming{
+		margin-left: 80px;
+		padding-right: 90px;
+	}
+	.email{
+		margin-left: 80px;
+	}
+	.youxiang{
+		margin-left: 40px;
+		padding-right: 90px;
+		margin-left: 80px;
+	}
+	.shurukuang{
+		padding-right: 300px;
+		padding-bottom: 160px;
+		margin-left: 80px;
+	}
+	.age{
+		margin-left: 80px;
+	}
+	.get{
+		margin-left: 80px;
+		padding-top: 40px;
+	}
+	.se{
+		font-size: 18px;
+		margin-left: 80px;
+		padding: 10px 20px;
+	}
+	.hey{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.by{
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.con{
+		padding:10px 25px;
+		font-size: 12px;
+	}
+	.mu{
+		font-size: 14px;
+		margin-left: 100px;
+		margin-right: 50px;
+		line-height: 1.5em;
+	}
+	.me{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top:0px;
+		padding-top: 40px;
+	}
+	.me-1{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.tu-1{
+		width: 280px;
+		height: 280px;
+	}
+	.tu{
+		width: 280px;
+		height: 280px;
+	}
+	.new{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	.al-3{
+		margin-right: 20px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-2{
+		margin-right: 115px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-1{
+		margin-right: 207px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al{
+		margin-right: 302px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-3{
+		margin-right: 20px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-2{
+		margin-right: 115px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-1{
+		margin-right: 207px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al{
+		margin-right: 302px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al{
+		margin-right: 302px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.fau{
+		font-size: 16px;
+	}
+	.par{
+		font-size: 18px;
+	}
+	.ad{
+		margin-right: 35px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+	}
+	.ad-1{
+		margin-right: 140px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+	}
+	.gen{
+		margin-top: -50px;
+		padding-bottom: 0px;
+	}
+	.ult{
+		margin-top: -98px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		margin-left: 100px;
+		clear: both;
+	}
+	.youtu{
+		margin-left: 0px;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:200px; top:-310px;}
+		100% {left:200px; top:40px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:200px; top:-310px;}
+		100% {left:200px; top:40px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:200px; top:-310px;}
+		100% {left:200px; top:40px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:200px; top:-310px;}
+		100% {left:200px; top:40px;}
+	}
+}
+@media (max-width:569px) and (min-width:480px){
+	.zhanshi{
+		margin-left:80px;
+	}
+	.full{
+		margin-top: 960px;
+		margin-right: -50px;
+		clear: both;
+		margin-bottom: -20px;
+	}
+	.fu{
+		font-size: 16px;
+		font-weight: 200;
+		padding: 15px 30px;
+	}
+	.zuobian{
+		margin-top: 50px;
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian{
+		margin-top: 0px;
+		width: 100%;
+		float: none;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.name{
+		margin-left: 80px;
+	}
+	.xingming{
+		margin-left: 80px;
+		padding-right: 90px;
+	}
+	.email{
+		margin-left: 80px;
+	}
+	.youxiang{
+		margin-left: 40px;
+		padding-right: 90px;
+		margin-left: 80px;
+	}
+	.shurukuang{
+		padding-right: 200px;
+		padding-bottom: 160px;
+		margin-left: 80px;
+	}
+	.age{
+		margin-left: 80px;
+	}
+	.get{
+		margin-left: 80px;
+		padding-top: 40px;
+	}
+	.se{
+		font-size: 18px;
+		margin-left: 80px;
+		padding: 10px 20px;
+	}
+	.hey{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.by{
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	.con{
+		padding:8px 20px;
+		font-size: 10px;
+	}
+	.mu{
+		font-size: 14px;
+		margin-left: 100px;
+		margin-right: 50px;
+		line-height: 1.5em;
+	}
+	.me{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top:0px;
+		padding-top: 40px;
+	}
+	.me-1{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.tu-1{
+		width: 230px;
+		height: 230px;
+	}
+	.tu{
+		width: 230px;
+		height: 230px;
+	}
+	.new{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		margin-left: 50px;
+	}
+	.al-3{
+		margin-right: 20px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-2{
+		margin-right: 115px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al-1{
+		margin-right: 207px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.al{
+		margin-right: 302px;
+		padding: 10px 18px;
+		margin-top: -48px;
+	}
+	.gal{
+		padding-left: 70px;
+	}
+	.fau{
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.par{
+		font-size: 18px;
+		margin-top: -20px;
+	}
+	.par-1{
+		margin-left: 100px;
+	}
+	.ad{
+		margin-right: 30px;
+		margin-left: 100px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+		text-align:left;
+	}
+	.ad-1{
+		margin-right: 140px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+	}
+	.gen{
+		margin-top: -50px;
+		padding-bottom: 0px;
+		padding-left: 100px;
+	}
+	.ult{
+		margin-top: -98px;
+		padding-left: 100px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		margin-left: 100px;
+		clear: both;
+	}
+	.zuotu{
+		float: none;
+		clear: both;
+		margin-left: 200px;
+	}
+	.youtu{
+		margin-left: 100px;
+		float: none;
+		clear: both;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:190px; top:-310px;}
+		100% {left:190px; top:40px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:190px; top:-310px;}
+		100% {left:190px; top:40px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:190px; top:-310px;}
+		100% {left:190px; top:40px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:190px; top:-310px;}
+		100% {left:190px; top:40px;}
+	}
+}
+@media (max-width:480px) and (min-width:415px){
+	.zhanshi{
+		margin-left:65px;
+	}
+	.full{
+		margin-top: 840px;
+		margin-right: -50px;
+		clear: both;
+		margin-bottom: -20px;
+	}
+	.fu{
+		font-size: 16px;
+		font-weight: 200;
+		padding: 15px 30px;
+	}
+	.zuobian{
+		margin-top: 50px;
+		width: 100%;
+		float: none;
+	}
+	.youbian{
+		margin-top: 0px;
+		width: 100%;
+		float: none;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.name{
+		margin-left: 80px;
+	}
+	.xingming{
+		margin-left: 80px;
+		padding-right: 90px;
+	}
+	.email{
+		margin-left: 80px;
+	}
+	.youxiang{
+		margin-left: 40px;
+		padding-right: 90px;
+		margin-left: 80px;
+	}
+	.shurukuang{
+		padding-right: 90px;
+		padding-bottom: 160px;
+		margin-left: 80px;
+	}
+	.age{
+		margin-left: 80px;
+	}
+	.get{
+		margin-left: 80px;
+		padding-top: 40px;
+	}
+	.se{
+		font-size: 18px;
+		margin-left: 80px;
+		padding: 10px 20px;
+	}
+	.hey{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.by{
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	.con{
+		padding:8px 20px;
+		font-size: 10px;
+	}
+	.mu{
+		font-size: 14px;
+		margin-left: 100px;
+		margin-right: 50px;
+		line-height: 1.5em;
+	}
+	.me{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top:0px;
+		padding-top: 40px;
+	}
+	.me-1{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.tu-1{
+		width: 200px;
+		height: 200px;
+	}
+	.tu{
+		width: 200px;
+		height: 200px;
+	}
+	.new{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		margin-left: 50px;
+	}
+	.un{
+		font-size: 12px;
+		margin-left: 40px;
+	}
+	.al-3{
+		margin-right: 15px;
+		padding: 10px 18px;
+		margin-top: -48px;
+		font-size: 12px;
+	}
+	.al-2{
+		margin-right: 96px;
+		padding: 10px 18px;
+		margin-top: -48px;
+		font-size: 12px;
+	}
+	.al-1{
+		margin-right: 174px;
+		padding: 10px 18px;
+		margin-top: -48px;
+		font-size: 12px;
+	}
+	.al{
+		margin-right: 256px;
+		padding: 10px 18px;
+		margin-top: -48px;
+		font-size: 12px;
+	}
+	.gal{
+		padding-left: 70px;
+		font-size: 16px;
+	}
+	.fau{
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.par{
+		font-size: 18px;
+		margin-top: -20px;
+	}
+	.par-1{
+		margin-left: 100px;
+	}
+	.ad{
+		margin-right: 30px;
+		margin-left: 100px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+		text-align:left;
+	}
+	.ad-1{
+		margin-right: 140px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+	}
+	.gen{
+		margin-top: -50px;
+		padding-bottom: 0px;
+		padding-left: 100px;
+	}
+	.ult{
+		margin-top: -98px;
+		padding-left: 100px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		margin-left: 100px;
+		clear: both;
+	}
+	.zuotu{
+		float: none;
+		clear: both;
+		margin-left: 180px;
+	}
+	.youtu{
+		margin-left: 80px;
+		float: none;
+		clear: both;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:150px; top:-310px;}
+		100% {left:150px; top:20px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:150px; top:-310px;}
+		100% {left:150px; top:20px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:150px; top:-310px;}
+		100% {left:150px; top:20px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:150px; top:-310px;}
+		100% {left:150px; top:20px;}
+	}
+}
+@media(max-width:414px) and (min-width:376px){
+	.zhanshi{
+		margin-left:100px;
+	}
+	.full{
+		margin-top: 2190px;
+		margin-right: -50px;
+		clear: both;
+		margin-bottom: -20px;	
+	}
+	.fu{
+		font-size: 16px;
+		font-weight: 200;
+		padding: 15px 30px;
+	}
+	.zuobian{
+		margin-top: 50px;
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian{
+		margin-top: 0px;
+		width: 100%;
+		float: none;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.name{
+		margin-left: 80px;
+	}
+	.xingming{
+		margin-left: 80px;
+		padding-right: 90px;
+	}
+	.email{
+		margin-left: 80px;
+	}
+	.youxiang{
+		margin-left: 40px;
+		padding-right: 90px;
+		margin-left: 80px;
+	}
+	.shurukuang{
+		padding-right: 90px;
+		padding-bottom: 160px;
+		margin-left: 80px;
+	}
+	.age{
+		margin-left: 80px;
+	}
+	.get{
+		margin-left: 80px;
+		padding-top: 40px;
+	}
+	.se{
+		font-size: 18px;
+		margin-left: 80px;
+		padding: 10px 20px;
+	}
+	.hey{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.by{
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	.con{
+		padding:8px 20px;
+		font-size: 10px;
+		display: none;
+	}
+	.mu{
+		font-size: 14px;
+		margin-left: 100px;
+		margin-right: 50px;
+		line-height: 1.5em;
+	}
+	.me{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top:0px;
+		padding-top: 40px;
+	}
+	.me-1{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.tu-1{
+		width: 270px;
+		height: 270px;
+	}
+	.tu{
+		width: 270px;
+		height: 270px;
+	}
+	.new{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		margin-left: 50px;
+	}
+	.un{
+		font-size: 12px;
+		margin-left: 40px;
+	}
+	.al-3{
+		margin-right: 30px;
+		padding: 10px 18px;
+		margin-top: -38px;
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.al-2{
+		margin-right: 111px;
+		padding: 10px 18px;
+		margin-top: -38px;
+		font-size: 12px;
+
+	}
+	.al-1{
+		margin-right: 189px;
+		padding: 10px 18px;
+		margin-top: -38px;
+		font-size: 12px;
+	}
+	.al{
+		margin-right: 271px;
+		padding: 10px 18px;
+		margin-top: 0px;
+		font-size: 12px;
+		margin-left: 150px;
+	}
+	.gal{
+		padding-left: 70px;
+		font-size: 16px;
+		text-align: center;
+		float: none;
+		padding-top: 90px;
+		padding-bottom: 20px;
+	}
+	.fau{
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.par{
+		font-size: 18px;
+		margin-top: -20px;
+	}
+	.par-1{
+		margin-left: 100px;
+	}
+	.ad{
+		margin-right: 30px;
+		margin-left: 100px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+		text-align:left;
+	}
+	.ad-1{
+		margin-right: 140px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+	}
+	.gen{
+		margin-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-left: -150px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.ult{
+		margin-top: -70px;
+		padding-left: 0px;
+		margin-left: 0px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		margin-left: 100px;
+		clear: both;
+	}
+	.zuotu{
+		float: none;
+		clear: both;
+		margin-left: 150px;
+	}
+	.youtu{
+		margin-left: 50px;
+		float: none;
+		clear: both;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:120px; top:-110px;}
+		100% {left:120px; top:30px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:120px; top:-110px;}
+		100% {left:120px; top:30px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:120px; top:-110px;}
+		100% {left:120px; top:30px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:120px; top:-110px;}
+		100% {left:120px; top:30px;}
+	}
+}
+@media(max-width:375px) and (min-width:321px){
+	.zhanshi{
+		margin-left:80px;
+	}
+	.full{
+		margin-top: 2190px;
+		margin-right: -50px;
+		clear: both;
+		margin-bottom: -20px;	
+	}
+	.fu{
+		font-size: 16px;
+		font-weight: 200;
+		padding: 15px 30px;
+	}
+	.zuobian{
+		margin-top: 50px;
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian{
+		margin-top: 0px;
+		width: 100%;
+		float: none;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.name{
+		margin-left: 80px;
+	}
+	.xingming{
+		margin-left: 80px;
+		padding-right: 50px;
+	}
+	.email{
+		margin-left: 80px;
+	}
+	.youxiang{
+		margin-left: 40px;
+		padding-right: 50px;
+		margin-left: 80px;
+	}
+	.shurukuang{
+		padding-right: 50px;
+		padding-bottom: 200px;
+		margin-left: 80px;
+	}
+	.age{
+		margin-left: 80px;
+	}
+	.get{
+		margin-left: 80px;
+		padding-top: 40px;
+	}
+	.se{
+		font-size: 18px;
+		margin-left: 80px;
+		padding: 10px 20px;
+	}
+	.hey{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.by{
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	.con{
+		padding:8px 20px;
+		font-size: 10px;
+		display: none;
+	}
+	.mu{
+		font-size: 14px;
+		margin-left: 100px;
+		margin-right: 50px;
+		line-height: 1.5em;
+	}
+	.me{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top:0px;
+		padding-top: 40px;
+	}
+	.me-1{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.tu-1{
+		width: 270px;
+		height: 270px;
+	}
+	.tu{
+		width: 270px;
+		height: 270px;
+	}
+	.new{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		margin-left: 50px;
+	}
+	.un{
+		font-size: 12px;
+		margin-left: 40px;
+	}
+	.al-3{
+		margin-right: 13px;
+		padding: 10px 18px;
+		margin-top: -38px;
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.al-2{
+		margin-right: 94px;
+		padding: 10px 18px;
+		margin-top: -38px;
+		font-size: 12px;
+
+	}
+	.al-1{
+		margin-right: 172px;
+		padding: 10px 18px;
+		margin-top: -38px;
+		font-size: 12px;
+	}
+	.al{
+		margin-right: 254px;
+		padding: 10px 18px;
+		margin-top: 0px;
+		font-size: 12px;
+		margin-left: 150px;
+	}
+	.gal{
+		padding-left: 70px;
+		font-size: 16px;
+		text-align: center;
+		float: none;
+		padding-top: 90px;
+		padding-bottom: 20px;
+	}
+	.fau{
+		font-size: 14px;
+		line-height: 25px;
+		margin-right: 35px;
+		margin-left: 80px;
+	}
+	.par{
+		font-size: 16px;
+		margin-top: -20px;
+		margin-left: -20px;
+	}
+	.par-1{
+		margin-left: 80px;
+	}
+	.ad{
+		margin-right: 20px;
+		margin-left: 80px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+		text-align:left;
+	}
+	.ad-1{
+		margin-right: 120px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+		margin-left: -20px;
+	}
+	.gen{
+		margin-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-left: -150px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.ult{
+		margin-top: -70px;
+		padding-left: 0px;
+		margin-left: 0px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		margin-left: 100px;
+		clear: both;
+	}
+	.zuotu{
+		float: none;
+		clear: both;
+		margin-left: 125px;
+	}
+	.youtu{
+		margin-left: 25px;
+		float: none;
+		clear: both;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.sna{
+		text-align: center;
+		margin-right: -50px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:100px; top:-110px;}
+		100% {left:100px; top:30px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:100px; top:-110px;}
+		100% {left:100px; top:30px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:100px; top:-110px;}
+		100% {left:100px; top:30px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:100px; top:-110px;}
+		100% {left:100px; top:30px;}
+	}
+}
+@media(max-width:320px){
+	.zhanshi{
+		margin-left:70px;
+	}
+	.full{
+		margin-top: 1880px;
+		margin-right: -50px;
+		clear: both;
+		margin-bottom: -20px;	
+	}
+	.fu{
+		font-size: 16px;
+		font-weight: 200;
+		padding: 15px 30px;
+	}
+	.fenqu{
+		margin-top: 100px;
+	}
+	.zuobian{
+		margin-top: 50px;
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian{
+		margin-top: 0px;
+		width: 100%;
+		float: none;
+	}
+	.name-1{
+		float: none !important;
+	}
+	.name{
+		margin-left: 80px;
+	}
+	.xingming{
+		margin-left: 80px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.email{
+		margin-left: 80px;
+	}
+	.youxiang{
+		margin-left: 40px;
+		padding-right: 10px;
+		margin-left: 80px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.shurukuang{
+		padding-right: 6px;
+		padding-bottom: 220px;
+		margin-left: 80px;
+	}
+	.age{
+		margin-left: 80px;
+	}
+	.get{
+		margin-left: 80px;
+		padding-top: 40px;
+	}
+	.se{
+		font-size: 18px;
+		margin-left: 80px;
+		padding: 10px 20px;
+	}
+	.hey{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.by{
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	.con{
+		padding:8px 20px;
+		font-size: 10px;
+		display: none;
+	}
+	.mu{
+		font-size: 14px;
+		margin-left: 100px;
+		margin-right: 50px;
+		line-height: 1.5em;
+	}
+	.me{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top:0px;
+		padding-top: 40px;
+	}
+	.me-1{
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+	.tu-1{
+		width: 230px;
+		height: 230px;
+	}
+	.tu{
+		width: 230px;
+		height: 230px;
+	}
+	.new{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		margin-left: 50px;
+	}
+	.un{
+		font-size: 10px;
+		margin-left: 40px;
+	}
+	.al-3{
+		margin-right: -156px;
+		padding: 10px 18px;
+		margin-top: 3px;
+		font-size: 12px;
+		position: absolute;
+		animation:myal3 3s;
+		-moz-animation:myal3 3s; /* Firefox */
+		-webkit-animation:myal3 3s; /* Safari and Chrome */
+		-o-animation:myal3 3s; /* Opera */
+		animation-fill-mode :forwards;
+	}
+		@keyframes myal3
+	{
+		0%   {left:350px; top:168px;}
+		100% {left:220px; top:168px;}
+	}
+
+	@-moz-keyframes myal3 /* Firefox */
+	{
+		0%   {left:350px; top:168px;}
+		100% {left:220px; top:168px;}
+	}
+
+	@-webkit-keyframes myal3 /* Safari and Chrome */
+	{
+		0%   {left:350px; top:168px;}
+		100% {left:220px; top:168px;}
+	}
+
+	@-o-keyframes myal3 /* Opera */
+	{
+		0%   {left:350px; top:168px;}
+		100% {left:220px; top:168px;}
+	}
+	.al-2{
+		margin-right: 100px;
+		padding: 10px 18px;
+		margin-top: 3px;
+		font-size: 12px;
+		margin-bottom: 10px;
+		position: absolute;
+		animation:myal2 3s;
+		-moz-animation:myal2 3s; /* Firefox */
+		-webkit-animation:myal2 3s; /* Safari and Chrome */
+		-o-animation:myal2 3s; /* Opera */
+		animation-fill-mode :forwards;
+	}
+		@keyframes myal2
+	{
+		0%   {left:350px; top:168px;}
+		100% {left:152px; top:168px;}
+	}
+
+	@-moz-keyframes myal2 /* Firefox */
+	{
+		0%   {left:350px; top:168px;}
+		100% {left:152px; top:168px;}
+	}
+
+	@-webkit-keyframes myal2 /* Safari and Chrome */
+	{
+		0%   {left:350px; top:168px;}
+		100% {left:152px; top:168px;}
+	}
+
+	@-o-keyframes myal2 /* Opera */
+	{
+		0%   {left:350px; top:168px;}
+		100% {left:152px; top:168px;}
+	}
+	.al-1{
+		margin-right: 112px;
+		padding: 10px 18px;
+		margin-top: -38px;
+		font-size: 12px;
+		position: absolute;
+		animation:myal1 3s;
+		-moz-animation:myal1 3s; /* Firefox */
+		-webkit-animation:myal1 3s; /* Safari and Chrome */
+		-o-animation:myal1 3s; /* Opera */
+		animation-fill-mode :forwards;
+	}
+		@keyframes myal1
+	{
+		0%   {left:-220px; top:168px;}
+		100% {left:122px; top:168px;}
+	}
+
+	@-moz-keyframes myal1 /* Firefox */
+	{
+		0%   {left:-220px; top:168px;}
+		100% {left:122px; top:168px;}
+	}
+
+	@-webkit-keyframes myal1 /* Safari and Chrome */
+	{
+		0%   {left:-220px; top:168px;}
+		100% {left:122px; top:168px;}
+	}
+
+	@-o-keyframes myal1 /* Opera */
+	{
+		0%   {left:-220px; top:168px;}
+		100% {left:122px; top:168px;}
+	}
+	.al{
+		margin-right: 194px;
+		padding: 10px 18px;
+		margin-top: 0px;
+		font-size: 12px;
+		margin-left: 150px;
+		position: absolute;
+		animation:myal 3s;
+		-moz-animation:myal 3s; /* Firefox */
+		-webkit-animation:myal 3s; /* Safari and Chrome */
+		-o-animation:myal 3s; /* Opera */
+		animation-fill-mode :forwards;
+	}
+	 	@keyframes myal
+	{
+		0%   {left:-220px; top:130px;}
+		100% {left:-85px; top:130px;}
+	}
+
+	@-moz-keyframes myal /* Firefox */
+	{
+		0%   {left:-220px; top:130px;}
+		100% {left:-85px; top:130px;}
+	}
+
+	@-webkit-keyframes myal /* Safari and Chrome */
+	{
+		0%   {left:-220px; top:130px;}
+		100% {left:-85px; top:130px;}
+	}
+
+	@-o-keyframes myal /* Opera */
+	{
+		0%   {left:-220px; top:130px;}
+		100% {left:-85px; top:130px;}
+	}
+	.gal{
+		padding-left: 70px;
+		font-size: 16px;
+		text-align: center;
+		float: none;
+		padding-top: 90px;
+		padding-bottom: 20px;
+	}
+	.fau{
+		font-size: 14px;
+		line-height: 25px;
+		margin-right: 35px;
+		margin-left: 80px;
+	}
+	.par{
+		font-size: 16px;
+		margin-top: -20px;
+		margin-left: -20px;
+	}
+	.par-1{
+		margin-left: 80px;
+	}
+	.ad{
+		margin-right: 20px;
+		margin-left: 80px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+		text-align:left;
+	}
+	.ad-1{
+		margin-right: 120px;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 23px;
+		margin-left: -20px;
+	}
+	.gen{
+		margin-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-left: -100px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.ult{
+		margin-top: -70px;
+		padding-left: 60px;
+		margin-left: 0px;
+		font-size: 18px;
+		font-weight:500px;
+	}
+	.zuobian-1{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.youbian-1{
+		width: 100%;
+		margin-left: 100px;
+		clear: both;
+	}
+	.zuotu{
+		float: none;
+		clear: both;
+		margin-left: 100px;
+	}
+	.youtu{
+		margin-left: 0px;
+		float: none;
+		clear: both;
+	}
+	.zuobian-2{
+		margin-top: 0px;
+	}
+	.youbian-2{
+		margin-top: 0px;
+	}
+	.sna{
+		text-align: center;
+		margin-right: -50px;
+	}
+	.biaoti{
+	text-align: center;
+	position: absolute;
+	animation:myfirst 2s;
+	-moz-animation:myfirst 2s; /* Firefox */
+	-webkit-animation:myfirst 2s; /* Safari and Chrome */
+	-o-animation:myfirst 2s; /* Opera */
+	animation-fill-mode :forwards;
+	}
+	@keyframes myfirst
+	{
+		0%   {left:70px; top:-110px;}
+		100% {left:70px; top:20px;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+		0%   {left:70px; top:-110px;}
+		100% {left:70px; top:20px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		0%   {left:70px; top:-110px;}
+		100% {left:70px; top:20px;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+		0%   {left:70px; top:-110px;}
+		100% {left:70px; top:20px;}
+	}
+}
